@@ -7,10 +7,16 @@
 body {
   background-color: #0000009d;
   color: #fff;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 ul {
   list-style: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48px;
 }
 
 nav {
@@ -39,6 +45,10 @@ nav ul li:nth-child(2) {
   color: #000;
 }
 
+nav ul li:hover {
+  cursor: pointer;
+}
+
 .hero,
 .hero-about,
 .hero-projects {
@@ -48,6 +58,13 @@ nav ul li:nth-child(2) {
   flex-direction: column;
   /* padding: 20px 75px; */
   padding: 50px;
+}
+
+.hero-img {
+  border-radius: 50%;
+  width: auto;
+  height: 150px;
+  margin-bottom: 25px;
 }
 
 /* TEMPORARY IMAGES */
